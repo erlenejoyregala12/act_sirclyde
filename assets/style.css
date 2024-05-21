@@ -48,12 +48,12 @@ padding-bottom: 100px;
 .card:hover .card-title,
 .card:hover .card-text,
 .card:hover .btn{
-    color: #ffffff;
+    color: #c20000;
 }
 .btn-outlined-brand{
     color: rgb(77, 78, 0);
     background-color: transparent;
-    border-color: #ff0000;
+    border-color: #00f529;
 }
 .btn-outlined-brand:hover{
     background-color: blueviolet;
