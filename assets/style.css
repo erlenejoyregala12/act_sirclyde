@@ -55,7 +55,7 @@ padding-bottom: 100px;
     background-color: transparent;
     border-color: #00f529;
 }
-.btn-outlined-brand:hover{
+.btn-brand:hover{
     background-color: blueviolet;
 }
 
@@ -79,4 +79,145 @@ background-attachment: fixed;
 
 #reviews a {
    color:rgb(255, 102, 0);
+}
+/* second */
+#faq{
+    background-color: #badcf0;
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .faq-item {
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    border-radius: 0 !important;
+  }
+
+  .faq-question {
+    background-color: #d0e3f7;
+    border: none;
+    border-bottom: 1px solid #65b2ff;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  }
+
+  .faq-answer {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #007cf8;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: var(#F2B03B );
+  }
+
+  /* Hover effect for FAQ questions */
+  .faq-question:hover {
+    background-color: var(#aaebff ); /* Change background color on hover */
+    color: var(#5c3a00 ); /* Change text color on hover */
+  }
+
+  /* Adjust accordion icon */
+  .accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+  }
+
+  .accordion-button[aria-expanded="true"]::after {
+    content: ""; /* Minus icon */
+    
+  }
+
+  #footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1a1a1a !important;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color:  #db6363;
+}
+
+#reviews h2, #services h2 {
+    color: #532c2c;
+}
+
+.btn-outline-light {
+    border-color: #F2B03B !important;
+    color: #F2B03B;
+}
+
+#footer h5 {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    h1 , h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+    #banner p {
+        text-align: center;
+
+    }
+    .btn {
+        font-size: 14px !important;
+        padding: 18px 0px;
+        width: 180px;
+    }
+    section {
+        padding: 60px 10px;
+    }
+
+    #about h3, #about p {
+        text-align: center;
+    }
+
+   .card {
+    margin-bottom: 30px;
+   }
+
+   #cta h2 , #cta2 h2{
+    font-size: 35px;
+   }
+
+   #about:after {
+    display: none;
+   }
+
+   #footer {
+    padding: 50px 20px;
+   }
+
+   #about img {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+   }
+
+    
 }
